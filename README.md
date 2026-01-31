@@ -9,6 +9,7 @@ The project combines a REST API built with Java and a browser extension interfac
 
 ## Project Structure
 
+```
 
 translator/
 ├─ src/
@@ -34,7 +35,7 @@ translator/
 ├─ README.md
 └─ .gitignore
 
-
+```
 
 
 ## Features
@@ -107,7 +108,7 @@ curl -X POST "http://localhost:8080/Translation/rest/translate" \
 `video/V5.Final.mp4` shows project usage.  
 (Download to watch if not playable on GitHub)
 
-## 👩‍💻 Author
+##  Author
 
 Amina El Moubtahij  
 
