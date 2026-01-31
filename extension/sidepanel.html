@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Darija Translator</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+    <img src="image/téléchargement.png" class="logo" alt="Darija AI">
+    
+      <div class="title">
+        Darija Translator
+        <div class="subtitle">English → Moroccan Darija</div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="card">
+        <label class="label">Enter English text</label>
+         <div class="textarea-wrapper">
+            <textarea id="text" class="input" placeholder="Type here..."></textarea>
+            <span id="clearIcon" class="clear-icon">Clear</span>
+         </div>
+         
+        
+        <button id="sendBtn" class="btn">
+          <span>Translate</span>
+          <span class="btn-icon">➤</span>
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="result-title">Darija</div>
+        <div id="result" class="result"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
