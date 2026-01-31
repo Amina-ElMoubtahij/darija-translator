@@ -56,8 +56,7 @@ translator/
 - JavaScript
 - HTML / CSS
 - Browser Extension API
-
-
+- Large Language Model (Gemini API) for Darija translation
 
 ##  How to Run the Project
 
@@ -99,14 +98,15 @@ curl -X POST "http://localhost:8080/Translation/rest/translate" \
 
 ##  Usage
 
-1. Select text on any web page.
+1. Type text manually or select text on any web page.
 2. Open the translator side panel.
 3. The selected text will be translated into Darija.
 4. View the result instantly.
 
 ## Demo Video
-`video/V5.Final.mp4` shows project usage.  
-(Download to watch if not playable on GitHub)
+
+The demo video is available directly on GitHub. 
+Drive:https://drive.google.com/file/d/1Qf3xKhch2JB0HT--4_XnrBxyne9Lecwp/view?usp=sharing
 
 ##  Author
 
